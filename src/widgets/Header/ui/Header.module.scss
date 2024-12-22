@@ -1,0 +1,17 @@
+.Header {
+    height: var(--header-height);
+    background: var(--bg-secondary-color);
+
+    nav {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & ul {
+            display: flex;
+            gap: 15px;
+            font-family: var(--font-L);
+        }
+    }
+}

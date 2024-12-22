@@ -1,5 +1,5 @@
 import s from './NotFoundPage.module.scss';
-import { classNames } from 'shared/lib/classNames/classNames';
+import { classNames } from '@/shared/lib/classNames/classNames';
 
 interface NotFoundPageProps {
     className?: string;

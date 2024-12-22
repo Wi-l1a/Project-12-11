@@ -1,0 +1,44 @@
+.Hero {
+    background: var(--bg-secondary-color);
+    padding: 130px 0;
+
+    & .wrapper {
+        & .boxContent {
+            display: flex;
+            justify-content: space-between;
+            align-items: stretch;
+            margin-bottom: 130px;
+
+            &>div {
+                flex: 0 1 45%;
+
+                &.boxText {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    & h1 {
+                        width: 70%;
+                        margin-bottom: 35px;
+
+                        & span {
+                            color: var(--secondary-color);
+                        }
+                    }
+
+                    & article {
+                        width: 90%;
+                        margin-bottom: 35px;
+                    }
+                }
+
+                & svg {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+
+    }
+}

@@ -1,12 +1,34 @@
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import webpack from 'webpack';
 import { BuildOption } from './types/config';
+
 export function buildLoaders({ isDev }: BuildOption): webpack.RuleSetRule[] {
+
+    // const svgLoader = {
+    //     test: /\.svg$/,
+    //     use: [{
+    //         loader: '@svgr/webpack',
+    //         options: {
+    //             icon: true,
+    //             svgoConfig: {
+    //                 plugins: [
+    //                     {
+    //                         name: 'convertColors',
+    //                         params: {
+    //                             currentColor: true,
+    //                         }
+    //                     }
+    //                 ]
+    //             }
+    //         }
+    //     }],
+    // };
 
     const svgLoader = {
         test: /\.svg$/,
         use: ['@svgr/webpack'],
     }
+
 
     const babelLoader = {
         test: /\.(js|jsx|tsx)$/,
@@ -40,7 +62,6 @@ export function buildLoaders({ isDev }: BuildOption): webpack.RuleSetRule[] {
         ],
     }
 
-    // Если не используем тайпскрипт - нужен babel-loader
     const typescriptLoader = {
         test: /\.tsx?$/,
         use: 'ts-loader',
@@ -48,19 +69,19 @@ export function buildLoaders({ isDev }: BuildOption): webpack.RuleSetRule[] {
     }
 
     const fileLoader = {
-        test: /\.(png|jpe?g|gif|woff2|woff)$/i,
-        use: [
-            {
-                loader: 'file-loader',
-            },
-        ],
-    }
+        test: /\.(png|jpe?g|gif|webp|woff2|woff)$/i,
+        type: 'asset/resource',
+        generator: {
+            filename: 'assets/images/[name][ext]'
+        }
+    };
 
     return [
-        fileLoader,
         svgLoader,
+        fileLoader,
         babelLoader,
         typescriptLoader,
         cssLoaders,
+
     ]
 }

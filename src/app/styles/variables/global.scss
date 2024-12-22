@@ -1,29 +1,32 @@
 :root {
-    --font-family-main: Consolas, "Times New Roman", Serif;
+    /* Шрифты */
+    --font-family-main: 'Lato', sans-serif;
+
 
     /* Размер шрифта для заголовков (L - Large) */
-    --font-size-l: 50px;
-    --font-line-l: 60px;
-    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+    --font-size-L: clamp(28px, 3vw, 45px);
+    --font-line-L: clamp(33px, 3vw, 48px);
+    --font-L: var(--font-size-L) / var(--font-line-L) var(--font-family-main);
 
     /* Размер шрифта для названия карточек (M - Medium) */
-    --font-size-m: 24px;
-    --font-line-m: 29px;
-    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+    --font-size-M: clamp(14px, 3vw, 24px);
+    --font-line-M: clamp(14px, 3vw, 29px);
+    --font-M: var(--font-size-M) / var(--font-line-M) var(--font-family-main);
 
-    /* Размер шрифта для описания  (S - Small) */
-    --font-size-s: 20px;
-    --font-line-s: 24px;
-    --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+    /* Размер шрифта для описания (S - Small) */
+    --font-size-S: clamp(14px, 1.5vw, 20px);
+    --font-line-S: clamp(20px, 3vw, 28px);
+    --font-S: var(--font-size-S) / var(--font-line-S) var(--font-family-main);
 
-    // Размеры  
+    /* Размеры */
     --header-height: 80px;
+    --container-width: 80%;
 
-    // цвета
-    --color-black: #000000;
-    --secondary-color: #75A1FF;
-    --color-description: #00000080;
-
-    --bg-color: #eeeeee;
+    /* Цвета */
+    --color-black: #222;
+    --color-white: #FFF;
+    --secondary-color: #4D7FEA;
+    --color-des-black: #555;
+    --color-des-white: #E6E6E6;
     --bg-secondary-color: #F5F7FF;
 }

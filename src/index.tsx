@@ -11,7 +11,7 @@ root.render(
             v7_relativeSplatPath: true,
         }}>
         <App />
-    </BrowserRouter>
+    </BrowserRouter >
 
 );
 

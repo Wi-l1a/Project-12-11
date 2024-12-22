@@ -1,21 +1,23 @@
 import './styles/index.scss'
-import { classNames } from 'shared/lib/classNames/classNames'
+import { classNames } from '@/shared/lib/classNames/classNames'
 import { Suspense } from 'react'
 import { AppRouter } from './providers/router'
-import { Header } from 'widgets/Header'
+import { Header } from '@/widgets/Header'
+import { Footer } from '@/widgets/Footer'
 
 
 const App = () => {
 
     return (
-        <div className={classNames('app', {}, ['wrapper'])}>
-            <Suspense fallback="">
+        <Suspense fallback="">
+            <div className={'app'}>
                 <Header />
-                <div className='content-page'>
+                <main className='content-page'>
                     <AppRouter />
-                </div>
-            </Suspense>
-        </div>
+                </main>
+                <Footer />
+            </div>
+        </Suspense>
     )
 }
 

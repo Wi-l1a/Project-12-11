@@ -1,0 +1,14 @@
+.select {
+    width: 100%;
+    border: 1px solid rgb(150, 150, 150);
+    padding-right: 20px;
+    background: var(--color-white);
+
+    & select {
+        width: 100%;
+        padding: 20px;
+        font: var(--font-S);
+        font-size: 18px;
+        color: rgb(87, 87, 87);
+    }
+}
