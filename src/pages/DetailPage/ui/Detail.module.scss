@@ -8,18 +8,13 @@
         margin-bottom: 50px;
 
         & .card {
-            flex: 1 1 50%;
+            flex-grow: 1;
 
-            &.box_img {
-                & img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                }
+            &.box_Slider {
+                width: 50%;
             }
 
             &.box_detail {
-                flex: 1 1 50%;
                 background: #f8f9fb;
                 padding: 1.5rem;
                 box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);

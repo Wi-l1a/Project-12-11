@@ -14,8 +14,8 @@ export enum AppRoutes {
 
 export const RoutePath: Record<AppRoutes, string> = {
     [AppRoutes.MAIN]: '/',
-    [AppRoutes.CATALOG]: '/catalog',
-    [AppRoutes.DETAIL]: '/detail/',
+    [AppRoutes.CATALOG]: '/catalog/',
+    [AppRoutes.DETAIL]: 'category/detail/',
     [AppRoutes.NOT_FOUND]: '*'
 }
 
@@ -25,11 +25,11 @@ export const routeConfig: Record<AppRoutes, RouteProps> = {
         element: <MainPage />
     },
     [AppRoutes.CATALOG]: {
-        path: RoutePath.catalog,
+        path: `${RoutePath.catalog}:category?`,
         element: <CatalogPage />
     },
     [AppRoutes.DETAIL]: {
-        path: `${RoutePath.detail}:id`,
+        path: `:${RoutePath.detail}:id`,
         element: <DetailPage />
     },
     [AppRoutes.NOT_FOUND]: {

@@ -41,6 +41,15 @@ export function buildLoaders({ isDev }: BuildOption): webpack.RuleSetRule[] {
         }
     }
 
+    const cssLoader = {
+        test: /\.css$/i,
+        use: [
+            isDev ? 'style-loader' : MiniCssExtractPlugin.loader,
+            'css-loader',
+        ],
+    };
+
+
     const cssLoaders = {
         test: /\.s[ac]ss$/i,
         use: [
@@ -82,6 +91,7 @@ export function buildLoaders({ isDev }: BuildOption): webpack.RuleSetRule[] {
         babelLoader,
         typescriptLoader,
         cssLoaders,
+        cssLoader
 
     ]
 }

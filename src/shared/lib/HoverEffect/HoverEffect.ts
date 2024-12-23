@@ -1,7 +1,7 @@
-import { useState } from "react";
+import React from "react";
 
 export const useHoverEffect = (initialColor: string = "rgba(0, 0, 0, 0.5)") => {
-    const [overlayStyle, setOverlayStyle] = useState({
+    const [overlayStyle, setOverlayStyle] = React.useState({
         left: "0px",
         top: "0px",
         width: "0px",

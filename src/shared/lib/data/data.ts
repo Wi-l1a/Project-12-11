@@ -4,6 +4,13 @@ export const DataCars = [
     {
         id: 1,
         imgSrc: imgcars,
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Bentley продаю срочно недорого",
         description: "Автомобиль в отличном состоянии, ухоженный салон, полный пакет документов. Идеальный вариант для города.",
@@ -24,6 +31,13 @@ export const DataCars = [
     {
         id: 2,
         imgSrc: 'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "BMW 320i 2005 года",
         description: "Ухоженная машина, идеально подходит для дальних поездок и города.",
@@ -44,6 +58,13 @@ export const DataCars = [
     {
         id: 3,
         imgSrc: 'https://i.gaw.to/vehicles/photos/01/84/018461_2010_Mercedes-Benz_E_Class.jpg?640x400',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Mercedes-Benz E-Class 2010",
         description: "Автомобиль в идеальном состоянии, с полным пакетом опций и комфортным салоном.",
@@ -64,6 +85,13 @@ export const DataCars = [
     {
         id: 4,
         imgSrc: 'https://mosautoshina.ru/i/auto/audi_a6_2015.jpg',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Audi A6 2015 года",
         description: "Идеальный выбор для тех, кто ценит комфорт и безопасность.",
@@ -84,6 +112,13 @@ export const DataCars = [
     {
         id: 5,
         imgSrc: 'https://ireland.apollo.olxcdn.com/v1/files/wvluenl3e5n4-UA/image;s=1600x720',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Toyota Corolla 2018 года",
         description: "Экономичный и надежный автомобиль, подходит для семейных поездок.",
@@ -104,6 +139,13 @@ export const DataCars = [
     {
         id: 6,
         imgSrc: 'https://topruscar.ru/assets/images/kt/kt2016_ford-focus_001.jpg',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Ford Focus 2016 года",
         description: "Компактный и удобный автомобиль для города, с отличной экономией топлива.",
@@ -124,6 +166,13 @@ export const DataCars = [
     {
         id: 7,
         imgSrc: 'https://vservice-al.ru/sites/default/files/imce/news/249396_xc90_b.jpg',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Volvo XC90 2019 года",
         description: "Просторный и безопасный внедорожник для семьи и путешествий.",
@@ -144,6 +193,13 @@ export const DataCars = [
     {
         id: 8,
         imgSrc: 'https://image-cdn.beforward.jp/large/202204/3541757/BM079633_722882.jpg',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Honda CR-V 2017 года",
         description: "Мощный и комфортный кроссовер для любых условий дороги.",
@@ -164,6 +220,13 @@ export const DataCars = [
     {
         id: 9,
         imgSrc: 'https://autopremiumgroup.ru/m/_versions/info/chevrolet/tahoe/2020/14-1_preview_image.jpg',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Chevrolet Tahoe 2020 года",
         description: "Крупный внедорожник для больших семей и активного отдыха.",
@@ -184,6 +247,13 @@ export const DataCars = [
     {
         id: 10,
         imgSrc: 'https://img.longo.group/drz5zvoaf/image/upload/c_fill,h_480,w_640/sduxjz5efoeumlgnzzza.webp',
+        images: [
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg',
+            'https://d1gymyavdvyjgt.cloudfront.net/drive/images/made/drive/images/remote/https_d2yv47kjv2gmpz.cloudfront.net/filestore/7/5/6_bce9e53ceb617ce/3d1e34ec06b814a626a34ebd1c7b7a8b/657_72f7c00b9cbcb20_600_400_70.jpg'
+        ],
         altText: "img",
         title: "Peugeot 3008 2018 года",
         description: "Современный и экономичный кроссовер для городских условий.",

@@ -1,1 +1,0 @@
-export { FilterProduct } from "./ui/FilterProduct";

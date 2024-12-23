@@ -1,111 +1,113 @@
 import { Input } from '@/shared/ui/Input/Input';
-import s from './FilterProduct.module.scss';
-import { classNames } from '@/shared/lib/classNames/classNames';
-import SearchIcon from '@/shared/assets/icons/search_Icon.svg';
+import s from './../Filters.module.scss'
+
 import { Select } from '@/shared/ui/Select/Select';
 
-interface FilterProductProps {
-    onFilterChange: (filters: any) => void;
-    className?: string;
+interface FilterCarsProps {
+    handleChange: (filters: any) => void;
+    inputsRef: React.MutableRefObject<{ [key: string]: HTMLInputElement | HTMLSelectElement }>;
 }
 
-export const FilterProduct = ({ onFilterChange, className }: FilterProductProps) => {
-    const handleFilterChange = (event: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-        const { name, value } = event.target;
-        onFilterChange({ [name]: value });
-    };
+export const FilterCars = ({ handleChange, inputsRef }: FilterCarsProps) => {
 
     return (
-        <div className={classNames(s.FilterProduct, {}, [className])}>
-            <Input
-                icon={<SearchIcon />}
-                width="100%"
-                type="text"
-                name="search"
-                className={classNames(s.input, {}, [s.search])}
-                placeholder="Поиск"
-                onChange={handleFilterChange}
-            />
+        <>
+
+            <span className={s.line} />
             <span className={s.label}>Цена</span>
             <div className={s.box}>
                 <Input
+                    ref={(el) => el && (inputsRef.current['minPrice'] = el)}
                     type="number"
                     name="minPrice"
                     placeholder="Мин. цена"
-                    onChange={handleFilterChange}
+                    onChange={handleChange}
                 />
                 <Input
+                    ref={(el) => el && (inputsRef.current['maxPrice'] = el)}
                     type="number"
                     name="maxPrice"
                     placeholder="Макс. цена"
-                    onChange={handleFilterChange}
+                    onChange={handleChange}
                 />
             </div>
             <span className={s.label}>Год</span>
             <div className={s.box}>
                 <Input
+                    ref={(el) => el && (inputsRef.current['minYear'] = el)}
                     type="number"
                     name="minYear"
                     placeholder="От"
-                    onChange={handleFilterChange}
+                    onChange={handleChange}
                 />
                 <Input
+                    ref={(el) => el && (inputsRef.current['maxYear'] = el)}
                     type="number"
                     name="maxYear"
                     placeholder="До"
-                    onChange={handleFilterChange}
+                    onChange={handleChange}
                 />
             </div>
+            <span className={s.label}>Другое</span>
+
             <Select
+                ref={(el) => el && (inputsRef.current['city'] = el)}
                 name="city"
                 options={["Бишкек", "Алматы", "Москва"]}
                 placeholder="Город: Все"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
 
             <Select
+                ref={(el) => el && (inputsRef.current['city'] = el)}
                 name="color"
                 options={["Серебристый", "Черный", "Красный", "Синий"]}
                 placeholder="Цвет: Любой"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
 
             <Select
+                ref={(el) => el && (inputsRef.current['model'] = el)}
                 name="model"
                 options={["Bentley", "BMW", "Mercedes"]}
                 placeholder="Модель: Все"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
             <Select
+                ref={(el) => el && (inputsRef.current['steeringWheel'] = el)}
                 name="steeringWheel"
                 options={["Левый", "Правый"]}
                 placeholder="Руль: Любой"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
             <Select
+                ref={(el) => el && (inputsRef.current['drive'] = el)}
                 name="drive"
                 options={["Передний", "Задний", "Полный"]}
                 placeholder="Привод: Любой"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
             <Select
+                ref={(el) => el && (inputsRef.current['fuel'] = el)}
                 name="fuel"
                 options={["Бензин", "Дизель", "Электрический"]}
                 placeholder="Топливо : Любой"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
             <Select
+                ref={(el) => el && (inputsRef.current['bodyType'] = el)}
                 name="bodyType"
                 options={["Седан", "Кроссовер", "Хэтчбек"]}
                 placeholder="Кузов: Любой"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
             <Select
+                ref={(el) => el && (inputsRef.current['condition'] = el)}
                 name="condition"
                 options={["Б/у", "Новый"]}
                 placeholder="Состояние: Любой"
-                onChange={handleFilterChange}
+                onChange={handleChange}
             />
-        </div>
+        </>
     );
 };
